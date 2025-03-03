@@ -29,6 +29,6 @@ The `CruddemoApplication.java` contains methods to interact with a local MySQL d
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/spring-boot-hibernate-demo.git
+git clone https://github.com/ramirezraven/spring-boot-hibernate-demo.git
 cd spring-boot-hibernate-demo
 
