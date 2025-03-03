@@ -1,27 +1,42 @@
-JPA - Hibernate Code Demo 
+# Spring Boot Hibernate JPA - CRUD Demo
 
-CruddemoApplication.java contains the following methods that perform the respective CRUD updates on a local mySQL database. 
+This is a Spring Boot application that demonstrates CRUD (Create, Read, Update, Delete) operations using Hibernate and JPA with a MySQL database.
 
-createStudent(studentDAO);
-- Create one row in Student DB
-			
-createMultipleStudents(studentDAO);
-- Create multiple rows in Student DB
+## Project Overview
 
-readStudent(studentDAO);
-- Retrieve Student information with JPQL 
+The `CruddemoApplication.java` contains methods to interact with a local MySQL database and perform various CRUD operations on a `Student` entity. The operations include creating a single student, creating multiple students, retrieving students via JPQL, and updating student information. The application utilizes JPA for object-relational mapping (ORM) and Hibernate as the persistence provider.
 
-queryForStudents(studentDAO);
-- Find Student by ID with JPQL 
+## Features
 
-queryForStudentsByLastName(studentDAO);
-- Find Student by givent last name using JPQL
+- **Create a single student**: Adds a new row to the `Student` table.
+- **Create multiple students**: Adds multiple rows to the `Student` table.
+- **Retrieve student information**: Fetches student information from the database using JPQL.
+- **Find student by ID**: Searches for a student based on their ID using JPQL.
+- **Find student by last name**: Searches for students based on their last name using JPQL.
+- **Update student information**: Updates an existing student's details in the database.
 
-updateStudent(studentDAO);
+## Requirements
+
+- Java 11 or newer
+- Spring Boot 2.x
+- Hibernate ORM
+- MySQL 5.x or newer
+- Maven or Gradle for project management
+- IntelliJ IDEA or your preferred IDE
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/spring-boot-hibernate-demo.git
+cd spring-boot-hibernate-demo
+
 Update Student by give ID
 			
 deleteStudent(studentDAO);
-- Delete Student by given ID 
+- Delete Student by given ID
+
 
 deleteAllStudents(studentDAO);
 - Delete all students in Student DB
