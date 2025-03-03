@@ -32,11 +32,3 @@ The `CruddemoApplication.java` contains methods to interact with a local MySQL d
 git clone https://github.com/yourusername/spring-boot-hibernate-demo.git
 cd spring-boot-hibernate-demo
 
-Update Student by give ID
-			
-deleteStudent(studentDAO);
-- Delete Student by given ID
-
-
-deleteAllStudents(studentDAO);
-- Delete all students in Student DB
